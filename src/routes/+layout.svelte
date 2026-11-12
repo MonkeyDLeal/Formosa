@@ -17,10 +17,10 @@
 
 	<nav>
 		<ul class="flex gap-10 font-bold font-Jakarta-sans">
-			<li><a href="/">Inicio</a></li>
-			<li><a href="/gastronomia">Gastronomia</a></li>
-			<li><a href="/turismo">Destinos</a></li>
-			<li><a href="/tradiciones">Cultura</a></li>
+			<li><a href="/">INICIO</a></li>
+			<li><a href="/gastronomia">GASTRONOMÍA</a></li>
+			<li><a href="/turismo">DESTINOS</a></li>
+			<li><a href="/tradiciones">CULTURA</a></li>
 		</ul>
 	</nav>
 
@@ -33,7 +33,7 @@
 {@render children()}
 
 <footer >
-	<div class="relative pb-2 after:content-[''] after:block after:w-384 after:h-[1px] after:bg-gray-300 after:mx-auto after:mt-2">
+	<div class="relative after:content-[''] after:block after:w-384 after:h-[1px] after:bg-gray-300 after:mx-auto after:mt-2">
 		<div class="flex px-12 pr-36 py-10 justify-between font-Jakarta-sans font-light">
 			<div class="flex flex-col gap-2">
 				<a href="/"><img src={Logo} alt="" class="w-xs mb-3"></a>
