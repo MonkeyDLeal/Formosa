@@ -33,7 +33,7 @@
 {@render children()}
 
 <footer >
-	<div class="relative after:content-[''] after:block after:w-384 after:h-[1px] after:bg-gray-300 after:mx-auto after:mt-2">
+	<div class="border">
 		<div class="flex px-12 pr-36 py-10 justify-between font-Jakarta-sans font-light">
 			<div class="flex flex-col gap-2">
 				<a href="/"><img src={Logo} alt="" class="w-xs mb-3"></a>
