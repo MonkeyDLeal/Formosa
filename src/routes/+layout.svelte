@@ -12,7 +12,7 @@
 </svelte:head>
 
 
-<header class="flex justify-between items-center px-12 py-7">
+<header class="flex justify-between items-center px-12 py-7 pr-20 bg-transparent">
 	<a href="/"><img src={Logo} alt="" class="w-sm"></a>
 
 	<nav>
@@ -33,8 +33,8 @@
 {@render children()}
 
 <footer >
-	<div class="border">
-		<div class="flex px-12 pr-36 py-10 justify-between font-Jakarta-sans font-light">
+	<div class="border-b border-b-gray-300 pt-15">
+		<div class="flex px-12 pr-20 py-10 justify-between font-Jakarta-sans font-light">
 			<div class="flex flex-col gap-2">
 				<a href="/"><img src={Logo} alt="" class="w-xs mb-3"></a>
 				<span class="font-bold text-lime-900">REVISTA Y GUÍA DE VIAJES</span>
@@ -73,7 +73,7 @@
 			</div>
 	</div>
 
-	<div class="flex justify-between px-12 py-5 font-Jakarta-sans font-extralight">
+	<div class="flex justify-between px-12 py-5 font-Jakarta-sans font-extralight pr-20">
 		<div>
 			<span>@2025 Discover Taiwan. Una isla que lo tiene todo. Diseñado con estética editorial minimalista.</span>
 		</div>
