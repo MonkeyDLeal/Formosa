@@ -1,9 +1,8 @@
 <script>
 	import './layout.css';
 	import favicon from '#lib/assets/favicon.svg';
-	import lupa from '#lib/assets/lupa.png';
 	import Logo from '#lib/assets/LogoTaiwan.png';
-
+	import Navbar from '#lib/components/Navbar.svelte';
 	let { children } = $props();
 </script>
 
@@ -12,23 +11,7 @@
 </svelte:head>
 
 
-<header class="flex justify-between items-center px-12 py-7 pr-20 bg-transparent">
-	<a href="/"><img src={Logo} alt="" class="w-sm"></a>
-
-	<nav>
-		<ul class="flex gap-10 font-bold font-Jakarta-sans group">
-			<li><a href="/" class="hover:border-b-secondary hover:border-b-3 hover:pb-1">INICIO</a></li>
-			<li><a href="/gastronomia" class="hover:border-b-secondary hover:border-b-3 hover:pb-1">GASTRONOMÍA</a></li>
-			<li><a href="/turismo" class="hover:border-b-secondary hover:border-b-3 hover:pb-1">DESTINOS</a></li>
-			<li><a href="/tradiciones" class="hover:border-b-secondary hover:border-b-3 hover:pb-1">CULTURA</a></li>
-		</ul>
-	</nav>
-
-	<div class="flex gap-7 font-Jakarta-sans">
-		<button><img src={lupa} alt=""></button>
-		<button class="bg-secondary px-5 py-2 rounded-xl text-tertiary font-bold">Explorar Guías</button>
-	</div>
-</header>
+<Navbar />
 
 {@render children()}
 
