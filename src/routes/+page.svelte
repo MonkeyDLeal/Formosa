@@ -1,6 +1,8 @@
 <script>
    import hero from '#lib/assets/HeroTaiwan.jpg';
    import Card from '#lib/components/card.svelte';
+   import { cardInicio } from '#lib/data/cardinicio.js';
+
 </script>
 
 <!--Hero-->
@@ -29,27 +31,12 @@
 
 
 <!--Cards-->
-<section class="px-12 pt-15 pb-25 gap-12 bg-gray-50 grid grid-cols-[repeat(auto-fill,minmax(500px,1fr))]">
+<section class="px-12 pt-15 pb-25 gap-12 bg-gray-50 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
     
-    <Card
-        portada = 'src/lib/assets/sopafideos.jpg'
-        etiqueta = '01/COCINA'
-        titulo = 'Gastronomia'
-        resumen = 'Sabores callejeros, tecnicas ancestrales y a la calidez de un bol humeante.'
-        categoria = 'VER GASTRONOMIA'
-    ></Card>
-    <Card
-        portada = 'src/lib/assets/templotaiwan.jpg'
-        etiqueta = '02/RUTA'
-        titulo = 'Destinos Turísticos'
-        resumen = 'Desde valles escarpados de mármol hata callejones dorados por faroles.'
-        categoria = 'VER DESTINOS'
-    ></Card>
-    <Card
-        portada = 'src/lib/assets/rezo.jpg'
-        etiqueta = '03/MEMORIA'
-        titulo = 'Tradiciones'
-        resumen = 'Ritos centenarios, maestros del té y la memoria viva de la isla.'
-        categoria = 'VER TRADICIONES'
-    ></Card>
+    {#each cardInicio as tarjeta}
+        <Card 
+            {...tarjeta}
+        />
+    {/each}
+ 
 </section>

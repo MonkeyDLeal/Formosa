@@ -1,0 +1,26 @@
+export const cardInicio = [
+    {
+        href: '/gastronomia',
+        portada: 'src/lib/assets/sopafideos.jpg',
+        etiqueta: '01/COCINA',
+        titulo: 'Gastronomia',
+        resumen: 'Sabores callejeros, tecnicas ancestrales y a la calidez de un bol humeante.',
+        categoria: 'VER GASTRONOMIA',
+    },
+    {
+        href: '/turismo',
+        portada: 'src/lib/assets/templotaiwan.jpg',
+        etiqueta: '02/RUTA',
+        titulo: 'Destinos Turísticos',
+        resumen: 'Desde valles escarpados de mármol hata callejones dorados por faroles.',
+        categoria: 'VER DESTINOS',
+    },
+    {
+        href: '/tradiciones',
+        portada: 'src/lib/assets/rezo.jpg',
+        etiqueta: '03/MEMORIA',
+        titulo: 'Tradiciones',
+        resumen: 'Ritos centenarios, maestros del té y la memoria viva de la isla.',
+        categoria: 'VER TRADICIONES',
+    },
+   ]
