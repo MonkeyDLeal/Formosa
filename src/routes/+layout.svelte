@@ -16,11 +16,11 @@
 	<a href="/"><img src={Logo} alt="" class="w-sm"></a>
 
 	<nav>
-		<ul class="flex gap-10 font-bold font-Jakarta-sans">
-			<li><a href="/">INICIO</a></li>
-			<li><a href="/gastronomia">GASTRONOMÍA</a></li>
-			<li><a href="/turismo">DESTINOS</a></li>
-			<li><a href="/tradiciones">CULTURA</a></li>
+		<ul class="flex gap-10 font-bold font-Jakarta-sans group">
+			<li><a href="/" class="hover:border-b-secondary hover:border-b-3 hover:pb-1">INICIO</a></li>
+			<li><a href="/gastronomia" class="hover:border-b-secondary hover:border-b-3 hover:pb-1">GASTRONOMÍA</a></li>
+			<li><a href="/turismo" class="hover:border-b-secondary hover:border-b-3 hover:pb-1">DESTINOS</a></li>
+			<li><a href="/tradiciones" class="hover:border-b-secondary hover:border-b-3 hover:pb-1">CULTURA</a></li>
 		</ul>
 	</nav>
 
