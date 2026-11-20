@@ -5,6 +5,7 @@ export const cardGastronomia = [
         titulo: 'Bubble Tea',
         resumen: 'La famosa bebida nacida en Taiwán que combina té, leche y suaves perlas de tapioca. Un ícono que conquistó el mundo.',
         categoria: 'LEER ARTICULO',
+        href: '/articulos',
     },
     {
         portada: 'src/lib/assets/chou-dou-fu.jpg',

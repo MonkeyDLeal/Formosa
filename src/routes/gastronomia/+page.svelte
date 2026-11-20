@@ -18,14 +18,15 @@
         <p class="font-Jakarta-sans text-gray-600 ">Un balance magistral entre la alquimia <br> callejera y la devoción ceremonial de templo, <br> donde cada caldo y vapor cuenta décadas de paciencia.</p>
     </div>
 
-    <div class="">
+    <div class="relative">
         <img src="{bannerGastronomia}" alt="" class="h-full w-full bg-cover bg-center bg-no-repeat bg-fixed">
+        <div class="absolute right-0 bottom-0 pr-8 pb-5"><span class="bg-black text-white font-base font-Jakarta-sans p-2">Taipei - Discover Taiwan</span></div>
     </div>
 </section>
 
 <!--articulos gastronomia-->
 
-<section class="px-12 pt-15 pb-25 gap-12 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
+<section class="px-12 pt-15 pb-25 gap-12 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] lg:grid-cols-3">
     {#each cardGastronomia as Tarjetagastronomia}
         <Card 
             {...Tarjetagastronomia}
