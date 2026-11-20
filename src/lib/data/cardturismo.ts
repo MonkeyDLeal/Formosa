@@ -1,4 +1,6 @@
-export const cardTurismo = [
+import type { Card } from "#lib/types/card.ts"
+
+export const cardTurismo: Card[] = [
     {
         portada: 'src/lib/assets/Alishan.jpg',
         etiqueta: '01/altas cumbres',

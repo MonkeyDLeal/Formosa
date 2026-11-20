@@ -1,4 +1,6 @@
-export const cardInicio = [
+import type { Card } from "#lib/types/card.ts"
+
+export const cardInicio: Card[] = [
     {
         href: '/gastronomia',
         portada: 'src/lib/assets/sopafideos.jpg',
