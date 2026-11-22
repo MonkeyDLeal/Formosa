@@ -40,5 +40,7 @@
             {...tarjeta}
         />
     {/each}
- 
+
 </section>
+
+ <a href="/articulos"><button class="bg-secondary text-black px-5 py-5">Hola</button></a>
