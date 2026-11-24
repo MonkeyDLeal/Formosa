@@ -16,7 +16,7 @@
   }
 </script>
 
-<div class="flex flex-col bg-white pb-5">
+<div class="flex flex-col bg-white pb-5 rounded-lg sm:rounded-none">
   <div class="relative">
     <img src={card.portada} alt="" class="w-full h-120 object-cover" />
     <span
