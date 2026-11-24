@@ -15,7 +15,7 @@
 
 {@render children()}
 
-<footer >
+<footer class="bg-gray-100 sm:bg-white">
 	<div class="border-b border-b-gray-300 pt-10 md:pt-5 lg:pt-15">
 		<div class="flex flex-col lg:flex-row lg:items-start lg:gap-10 md:px-12 lg:pr-20 lg:py-10 md:py-5 justify-between font-Jakarta-sans font-light">
 			<div class="flex flex-col items-center gap-2">

@@ -18,7 +18,7 @@
 </script>
 
 <header class="flex justify-between items-center px-7 py-7 md:px-12 md:py-7 md:pr-20 bg-transparent gap-5">
-	<a href="/"><img src={Logo} alt="" class="h-full w-full"></a>
+	<a href="/"><img src={Logo} alt="" class="h-full w-full sm:w-100 sm:h-full"></a>
 
 	<nav class={`${ showMenu ? 'right-0' : '-right-full'} bg-white md:bg-transparent fixed lg:static top-0 p-10 lg:p-0 transition-all h-full z-30`}>
 		<div class="flex justify-end pb-12 lg:hidden">
