@@ -1,6 +1,7 @@
 <script>
     import { IconCrop11Filled } from "@tabler/icons-svelte";
     import { IconPointFilled } from "@tabler/icons-svelte";
+    import { IconNavigationPin } from '@tabler/icons-svelte';
     import gastronomiaMobile from "#lib/assets/gastronomia-mobile.jpg";
     import bannerGastronomia from "#lib/assets/gastronomiabanner.jpg";
     import Card from "#lib/components/card.svelte";
@@ -96,7 +97,7 @@
 </section>
 
 <!--cita mobile gastronomia-->
-<section class="bg-gray-50 md:hidden">
+<section class="bg-gray-50 py-10 md:hidden">
     <div class="flex gap-3 items-start py-10 px-3">
         <div class="flex flex-col items-center gap-1 text-center">
             <p class="font-syne text-3xl font-bold leading-tight pb-4">
@@ -124,6 +125,18 @@
                 class="flex items-center font-Jakarta-sans text-gray-600 font-medium text-sm tracking-widest uppercase"
                 >NOTAS DE CATA<IconPointFilled /> REDACCIÓN GASTRONÓMICA</span
             >
+        </div>
+    </div>
+</section>
+
+<section class="pb-10">
+    <div class="bg-black mx-3 px-3 flex justify-between items-center md:hidden py-8 gap-3 rounded-2xl">
+        <div class="flex-1">
+            <h3 class="text-secondary font-Jakarta-sans font-medium text-4xl">¿Hambre en ruta?</h3>
+            <span class="text-white font-Jakarta-sans text-lg">Guía de mercados abiertos ahora</span>
+        </div>
+        <div class="flex-1">
+            <a href="https://maps.app.goo.gl/m3ZLcvwbiGBsyPfz6" class="bg-secondary px-5 py-4 flex rounded-lg font-Jakarta-sans font-semibold items-center justify-center">Ver Mapa<IconNavigationPin /></a>
         </div>
     </div>
 </section>
