@@ -16,9 +16,9 @@
   }
 </script>
 
-<div class="flex flex-col bg-white pb-5 rounded-lg sm:rounded-none">
+<div class="flex flex-col bg-white pb-5 rounded-lg md:rounded-none">
   <div class="relative">
-    <img src={card.portada} alt="" class="w-full h-120 object-cover" />
+    <img src={card.portada} alt="" class="w-full h-120 object-cover rounded-t-lg md:rounded-none" />
     <span
       class="absolute top-4 left-4 uppercase py-1 px-2 bg-black text-secondary font-Jakarta-sans font-bold self-start"
       >{card.etiqueta}</span

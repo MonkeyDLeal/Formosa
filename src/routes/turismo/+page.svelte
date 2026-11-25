@@ -12,7 +12,7 @@
 <!--Portada mobile Turismo-->
 <section class="px-3 pt-3 md:hidden">
     <div class="pb-7">
-        <div class="flex items-center justify-between gap-3">
+        <div class="flex items-center justify-between gap-3 pb-3">
             <span
                 class="flex items-center font-Jakarta-sans text-gray-600 font-semibold text-sm tracking-widest uppercase pb-1 flex-1"
                 >ATLAS INSULAR • VOL. IV — Formosa</span
@@ -122,7 +122,7 @@
 
 <!--Cita mobile-->
 
-<section class="md:hidden py-10">
+<section class="md:hidden pt-10 pb-15">
     <div class="bg-gray-100 flex gap-3 py-10 mx-3 px-4 border-l-4 border-l-secondary">
         <div class="flex flex-col gap-1">
             <p class="font-syne text-3xl font-bold leading-tight pb-4">

@@ -50,7 +50,7 @@
 
 
 <!--Cards-->
-<section class="px-12 pt-15 pb-25 gap-12 bg-gray-50 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
+<section class="px-5 lg:px-12 pt-15 pb-25 gap-12 bg-gray-50 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
     
     {#each cardInicio as tarjeta}
         <Card 
@@ -68,4 +68,4 @@
     </div>
 </section>
 
- <!-- <a href="/articulos"><button class="bg-secondary text-black px-5 py-5">Hola</button></a> -->
+ <a href="/articulos"><button class="bg-secondary text-black px-5 py-5">Hola</button></a>
