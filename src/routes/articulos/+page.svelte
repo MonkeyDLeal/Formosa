@@ -74,7 +74,7 @@
   </div>
   <figure class="relative">
     <img
-      src="src/lib/assets/articulo1.jpg"
+      src="/articulo1.jpg"
       alt=""
       class="h-full w-full object-cover"
     />
@@ -92,7 +92,7 @@
   </div>
   <figure class="relative">
     <img
-      src="src/lib/assets/articulo1.jpg"
+      src="/articulo1.jpg"
       alt=""
       class="h-full w-full object-cover"
     />
@@ -175,7 +175,7 @@
         <div class="py-10 gap-5 h-full w-full">
           <figure class="py-2">
             <img
-              src="src/lib/assets/articulo1.jpg"
+              src="/articulo1.jpg"
               alt=""
               class="h-full w-full object-cover"
             />
@@ -185,7 +185,7 @@
           </figure>
           <figure class="py-2">
             <img
-              src="src/lib/assets/articulo1.jpg"
+              src="/articulo1.jpg"
               alt=""
               class="h-full w-full object-cover"
             />
@@ -201,7 +201,7 @@
         <div class="py-10 gap-10 grid grid-cols-2 h-full w-full">
           <figure>
             <img
-              src="src/lib/assets/articulo1.jpg"
+              src="/articulo1.jpg"
               alt=""
               class="h-full w-full object-cover"
             />
@@ -209,7 +209,7 @@
           </figure>
           <figure>
             <img
-              src="src/lib/assets/articulo1.jpg"
+              src="/articulo1.jpg"
               alt=""
               class="h-full w-full object-cover"
             />
@@ -317,7 +317,7 @@
     <div class="flex items-start">
       <div class="shrink-0 mr-2">
         <img
-          src="src/lib/assets/luffy-icon.jpg"
+          src="/luffy-icon.jpg"
           alt=""
           class="w-22 h-22 rounded-full"
         />
@@ -342,7 +342,7 @@
   <div class="flex py-7 bg-gray-100 mx-5 lg:mx-32 gap-4 pl-5">
     <div class="shrink-0 mr-2">
       <img
-        src="src/lib/assets/luffy-icon.jpg"
+        src="/luffy-icon.jpg"
         alt=""
         class="rounded-full w-22 h-22"
       />
