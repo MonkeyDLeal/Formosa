@@ -51,7 +51,7 @@
       >
     </div>
     <div>
-      <h1 class="font-syne text-5xl lg:text-7xl font-[800] pb-6">
+      <h1 class="font-syne text-5xl lg:text-7xl font-extrabold pb-6">
         Guía Definitiva de los Mercados Nocturnos: De Shilin a Raohe tras los
         Sabores Prohibidos
       </h1>
@@ -150,7 +150,7 @@
         <span class="font-Jakarta-sans text-icono font-bold uppercase text-sm"
           >Capitulo 01</span
         >
-        <h2 class="font-syne font-extrabold lg:font-[700] text-2xl lg:text-4xl">
+        <h2 class="font-syne font-extrabold lg:font-bold text-2xl lg:text-4xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit
         </h2>
       </div>
@@ -275,7 +275,7 @@
         <span class="font-Jakarta-sans text-icono font-bold uppercase text-sm"
           >Capitulo 02</span
         >
-        <h2 class="font-syne font-extrabold lg:font-[700] text-2xl lg:text-4xl">
+        <h2 class="font-syne font-extrabold lg:font-bold text-2xl lg:text-4xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit
         </h2>
       </div>
@@ -323,7 +323,7 @@
         />
       </div>
       <div class="flex flex-2 flex-col">
-        <span class="font-syne font-[700] text-3xl">Victor Leal</span>
+        <span class="font-syne font-bold text-3xl">Victor Leal</span>
         <span class="font-Jakarta-sans font-bold uppercase text-icono text-sm"
           >Editor de crónica urbana</span
         >
@@ -349,7 +349,7 @@
     </div>
     <div>
       <div class="flex items-start gap-1 hide">
-        <span class="font-syne font-[700] text-3xl">Victor Leal</span>
+        <span class="font-syne font-bold text-3xl">Victor Leal</span>
         <span class="font-Jakarta-sans font-bold uppercase text-icono text-sm"
           >Editor de crónica</span
         >

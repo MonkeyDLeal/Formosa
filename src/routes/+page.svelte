@@ -4,7 +4,6 @@
    import { cardInicio } from '#lib/data/cardinicio.js';
    import { IconArrowNarrowDown } from '@tabler/icons-svelte';
    import { IconPlayerRecordFilled } from '@tabler/icons-svelte';
-    import { IconPointFilled } from '@tabler/icons-svelte';
 
 </script>
 
@@ -18,7 +17,7 @@
     </div>
     <div class="px-5 pt-5">
         <span class="font-Jakarta-sans uppercase text-gray-700">prólogo visual</span>
-        <h1 class="font-syne text-4xl font-[700]">Descubre Taiwán</h1>
+        <h1 class="font-syne text-4xl font-bold">Descubre Taiwán</h1>
         <p class="font-Jakarta-sans text-lg text-gray-700 py-3">Una isla forjada entre cumbres brumosas y vanguardia serena. El pulso íntimo donde el sosiego de la tradición abraza el porvenir.</p>
         <a href="/"><button class="bg-secondary py-4 text-tertiary font-Jakarta-sans text-base font-bold w-full rounded-lg flex justify-between px-5 items-center">Comenzar el viaje <IconArrowNarrowDown size={24} /></button></a>
     </div>
@@ -29,7 +28,7 @@
 <section class="min-h-180 lg:min-h-220 bg-cover bg-top-right bg-no-repeat bg-fixed place-content-end pb-40 px-12 hidden sm:block" style:background-image={`linear-gradient(rgb(0 0 0 / 15%), rgb(0 0 0 / 80%)), url('${hero}')`}>
     <div class="flex flex-col items-center lg:items-start">
         <span class="text-secondary text-xl font-bold font-Jakarta-sans flex items-center pb-3 "><IconPlayerRecordFilled />EDICION MONOGRÁFICA</span>
-        <h1 class="font-syne font-[800] text-7xl md:text-6xl lg:text-8xl text-white text-center lg:text-start pb-3">Descubre <br class="md:hidden lg:block"> Taiwán</h1>
+        <h1 class="font-syne font-extrabold text-7xl md:text-6xl lg:text-8xl text-white text-center lg:text-start pb-3">Descubre <br class="md:hidden lg:block"> Taiwán</h1>
         <p class="font-Jakarta-sans sm:text-lg text-white md:text-xl text-center lg:text-start pb-5">Una isla forjada entre cumbres brumosas y vanguardia serena. <br> El pulso íntimo donde el sosiego de la tradición abraza el <br> porvenir.</p>
         <a href="/"><button class="bg-secondary py-4 text-tertiary font-Jakarta-sans font-bold w-65 flex justify-center items-center text-base lg:text-lg">Comenzar el viaje <IconArrowNarrowDown size={24} /></button></a>
     </div>
@@ -67,5 +66,3 @@
         <span class="flex items-center font-Jakarta-sans text-gray-600 font-medium text-sm tracking-widest uppercase ">ALISHAN OOLONG CHRONICLES</span>
     </div>
 </section>
-
- <a href="/articulos"><button class="bg-secondary text-black px-5 py-5">Hola</button></a>

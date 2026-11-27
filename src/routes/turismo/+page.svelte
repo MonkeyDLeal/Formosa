@@ -46,23 +46,26 @@
 </section>
 
 <!--Portada PC Turismo-->
-<section class="px-12 pr-0 lg:pr-20 pt-10 hidden md:block">
-    <div class="pb-7">
-        <span
-            class="flex items-center font-Jakarta-sans text-gray-600 font-semibold text-base tracking-widest uppercase pb-1"
-            >ATLAS INSULAR<IconPointFilled class="text-secondary" /> VOL. IV — Formosa</span
-        >
-        <h1 class="font-syne text-6xl font-bold pb-2">DESCUBRE TAIWÁN</h1>
+<section class="px-12 lg:pr-20 pt-10 hidden md:block">
+    <div class="pb-7 flex flex-col justify-between">
+        <div>
+            <span
+                class="flex items-center font-Jakarta-sans text-gray-600 font-semibold text-base tracking-widest uppercase pb-1"
+                >ATLAS INSULAR<IconPointFilled class="text-secondary" /> VOL. IV
+                — Formosa</span
+            >
+            <h1 class="font-syne text-6xl font-bold pb-2">DESCUBRE TAIWÁN</h1>
+        </div>
 
-        <div class="flex justify-between lg:gap-10">
-            <p class="flex-2 font-Jakarta-sans text-gray-600">
+        <div class=" flex justify-between lg:gap-25">
+            <p class="flex-1 font-Jakarta-sans text-gray-600">
                 Una isla modelada por la tensión poética entre la vanguardia
                 metropolitana y las densas selvas subtropicales. Desde
                 acantilados de mármol que rozan las olas del Pacífico hasta
                 cumbres coronadas por mares de bruma y siluetas de neón.
             </p>
             <span
-                class="flex flex-1 font-Jakarta-sans font-bold text-gray-500 pl-20 lg:pl-0 lg:pr-32 items-center gap-2"
+                class="flex flex-none font-Jakarta-sans font-bold text-gray-500 pl-20 lg:pl-0 lg:pr-32 items-center gap-2"
                 >6 ENCLAVES ESENCIALES <IconCompassFilled
                     class="text-icono"
                     size="32"
@@ -71,21 +74,24 @@
         </div>
     </div>
 
-    <div class="h-screen">
-        <div
-            class="relative w-full h-full bg-no-repeat bg-center"
-            style:background-image={`linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 60%)), url('${bannerTurismo}')`}
-        >
-            <div class="absolute bottom-0 left-0 pb-10 pl-10">
-                <span class="font-Jakarta-sans text-secondary font-bold text-lg"
-                    >PANORÁMICA EDITORIAL</span
-                >
-                <h1 class="text-white font-syne font-bold text-3xl">
-                    La dorsal de Formosa: Encuentro de roca, niebla y océano
-                </h1>
-            </div>
+    <div class="">
+        <div class="relative">
+            <img
+                src={bannerTurismo}
+                alt=""
+                class="relative w-full h-full bg-no-repeat bg-cover brightness-75"
+            />
+            <div class="absolute left-10 bottom-5">
+            <span class="font-Jakarta-sans text-secondary font-bold text-lg"
+                >PANORÁMICA EDITORIAL</span
+            >
+            <h1 class="text-white font-syne font-bold text-xl lg:text-3xl">
+                La dorsal de Formosa: Encuentro de roca, niebla y océano
+            </h1>
         </div>
-    </div>
+        </div>
+        
+        </div>
 </section>
 
 <!--Articulos Turismo-->
@@ -123,7 +129,9 @@
 <!--Cita mobile-->
 
 <section class="md:hidden pt-10 pb-15">
-    <div class="bg-gray-100 flex gap-3 py-10 mx-3 px-4 border-l-4 border-l-secondary">
+    <div
+        class="bg-gray-100 flex gap-3 py-10 mx-3 px-4 border-l-4 border-l-secondary"
+    >
         <div class="flex flex-col gap-1">
             <p class="font-syne text-3xl font-bold leading-tight pb-4">
                 «Viajar por Taiwán no es medir distancias, sino contemplar cómo
